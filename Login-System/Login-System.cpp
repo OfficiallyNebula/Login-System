@@ -18,7 +18,7 @@ bool IsLoggedIn() {
 
     //Read from logins.txt
 
-    std::ifstream read("E:\Coding_Projects\C++\LoginSystem\Login-System\loigns.txt");
+    std::ifstream read("E:\Coding_Projects\C++\LoginSystem\Login-System\logins.txt");
     std::getline(read, un);
     std::getline(read, pw);
 
@@ -36,5 +36,16 @@ bool IsLoggedIn() {
 
 int main()
 {
-    
+    IsLoggedIn();
+
+    if (IsLoggedIn) {
+        std::cout << "You have been signed in.";
+        std::cin;
+        return 1;
+    }
+    else {
+        std::cout << "Incorrect login.";
+        std::cin;
+        return 0;
+    }
 }
