@@ -5,3 +5,13 @@
 *.opendb
 *.ipch
 *.sln
+Login-System/.vs/Login-System/v16/.suo
+*.exe
+*.recipe
+*.ilk
+*.log
+*.obj
+*.pdb
+*.tlog
+Login-System/Debug/Login-System.vcxproj.FileListAbsolute.txt
+*.idb
